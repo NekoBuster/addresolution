@@ -8,3 +8,4 @@ modestr=$(echo "$modeline" | sed "s/Modeline\s//g")
 modename=$(echo "$modestr" | cut -d " " -f 1)
 xrandr --newmode $modestr
 xrandr --addmode $monname $modename
+xrandr --output $monname --mode $modename

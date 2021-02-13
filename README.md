@@ -6,5 +6,5 @@ chmod +x addresolution.sh
 sudo ./addresolution.sh 1800 950
 ```
 # Dependencies
-Arch Linux:\
+Arch Linux:<br>
 xorg-xrandr (extra package)
